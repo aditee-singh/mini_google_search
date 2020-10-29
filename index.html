@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.searchbar{
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    margin-top:180px;
+   margin-left:30px;
+   width:100%;
+   border-radius: 25px;
+}
+colors{
+    width:588px; 
+    height:44px; 
+    outline:none;
+    width:100%;
+
+
+}
+.bar{
+    border-radius:25px;
+    -webkit-box-shadow: 2px 3px 0px -2px #ccc;
+    padding:10px;
+    border:0px;
+    outline: none;
+    border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #CCC;
+}
+.bar:hover{
+    -webkit-box-shadow: 3px 6px 7px -3px #ccc;
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="text-align: center">
+        <div class="row">
+            <div class="col-md-12 col-xs-12">
+                <div class="searchbar">    
+                    <div class="form-group ">
+                        <datalist id="colors">
+                            <option value="Red">
+                            <option value="Green">
+                            <option value="Blue">
+                            <option value="Lime">
+                            <option value="Cyan">
+                          </datalist>
+                          <input type="text" list="colors" name="browser" id="color" class="bar" style="width:588px; height:44px; outline:none;" class="form-control" >
+                          <a href="#"><i style="width:588px; height:44px; outline:none;" "class="glyphicon glyphicon-search"></i></a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
